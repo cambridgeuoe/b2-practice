@@ -26,8 +26,8 @@ const wordBank = [
     },
     {
         root: "SUCCESS",
-        sentence: "The team celebrated their recent _____.",
-        answers: ["success"]
+        sentence: "The team's tournament run was _____.",
+        answers: ["successful"]
     },
     {
         root: "ARGUE",
