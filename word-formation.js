@@ -88,7 +88,7 @@ const wordBank = [
     {
         root: "FORTUNATE",
         sentence: "_____ weather forced cancellation of the outdoor event.",
-        answers: ["Unfortunate"]
+        answers: ["unfortunate"]
     },
     {
         root: "EXPECT",
@@ -200,9 +200,7 @@ const wordBank = [
         sentence: "These chemicals are _____ to marine life.",
         answers: ["harmful"]
     }
-];
-
-  
+    
 ];
 
 let currentQuestions = [];
@@ -242,8 +240,8 @@ function generateNewSet() {
 }
 
 function getRandomQuestion() {
-    // In real implementation, ensure unique questions by managing used indexes
-    return wordBank[Math.floor(Math.random() * wordBank.length)];
+    let availableQuestions = wordBank.filter(q => !currentQuestions.includes(q));
+    return availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
 }
 
 function checkAllAnswers() {
@@ -272,7 +270,4 @@ function checkAllAnswers() {
 // Initial set
 generateNewSet();
 
-function getRandomQuestion() {
-    let availableQuestions = wordBank.filter(q => !currentQuestions.includes(q));
-    return availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
 }
