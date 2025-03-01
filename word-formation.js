@@ -1,4 +1,5 @@
 const wordBank = [
+    // Beta Questions
     {
         root: "CREATE",
         sentence: "The _____ of the new shopping mall took three years.",
@@ -49,7 +50,163 @@ const wordBank = [
         sentence: "The _____ landscape took our breath away.",
         answers: ["beautiful"]
     }
-  
+
+    // Prefix Examples (un-, dis-, mis-, im-, etc.)
+    {
+        root: "ABLE",
+        sentence: "She was _____ to attend the meeting due to prior commitments.",
+        answers: ["unable"]
+    },
+    {
+        root: "HONEST",
+        sentence: "The politician's _____ conduct led to public outrage.",
+        answers: ["dishonest"]
+    },
+    {
+        root: "LEGAL",
+        sentence: "The new regulations made previously acceptable practices _____.",
+        answers: ["illegal"]
+    },
+    {
+        root: "POSSIBLE",
+        sentence: "It's _____ to finish this project without proper funding.",
+        answers: ["impossible"]
+    },
+    {
+        root: "BEHAVE",
+        sentence: "The child's _____ at the restaurant was unacceptable.",
+        answers: ["misbehavior"]
+    },
+    {
+        root: "TRUST",
+        sentence: "After the scandal, customers felt _____ toward the brand.",
+        answers: ["distrust"]
+    },
+    {
+        root: "LEAD",
+        sentence: "The newspaper accused the government of _____ information.",
+        answers: ["misleading"]
+    },
+    {
+        root: "FORTUNATE",
+        sentence: "_____ weather forced cancellation of the outdoor event.",
+        answers: ["Unfortunate"]
+    },
+    {
+        root: "EXPECT",
+        sentence: "The _____ arrival of guests caused chaos in the kitchen.",
+        answers: ["unexpected"]
+    },
+    {
+        root: "AGREE",
+        sentence: "There was widespread _____ with the proposed changes.",
+        answers: ["disagreement"]
+    },
+
+    // Irregular Forms
+    {
+        root: "LONG",
+        sentence: "The _____ of the tunnel surprised engineers.",
+        answers: ["length"]
+    },
+    {
+        root: "WIDE",
+        sentence: "They're planning to _____ the road next year.",
+        answers: ["widen"]
+    },
+    {
+        root: "STRONG",
+        sentence: "Regular exercise helps _____ your muscles.",
+        answers: ["strengthen"]
+    },
+    {
+        root: "BROAD",
+        sentence: "The committee decided to _____ the scope of their research.",
+        answers: ["broaden"]
+    },
+    {
+        root: "DEEP",
+        sentence: "The _____ of their friendship was evident to everyone.",
+        answers: ["depth"]
+    },
+    {
+        root: "SIMPLE",
+        sentence: "The instructions need _____ for better understanding.",
+        answers: ["simplification"]
+    },
+    {
+        root: "HOT",
+        sentence: "The _____ caused several forest fires last summer.",
+        answers: ["heat"]
+    },
+    {
+        root: "LIVE",
+        sentence: "The concert _____ exceeded all expectations.",
+        answers: ["livelihood"]
+    },
+    {
+        root: "SICK",
+        sentence: "Preventive measures reduced workplace _____.",
+        answers: ["sickness"]
+    },
+    {
+        root: "THINK",
+        sentence: "This problem requires careful _____.",
+        answers: ["thought"]
+    },
+
+    // Advanced Prefixes (re-, pre-, over-)
+    {
+        root: "APPROVE",
+        sentence: "The committee voted to _____ the revised proposal.",
+        answers: ["reapprove"]
+    },
+    {
+        root: "CLEAR",
+        sentence: "Meteorologists _____ the storm warning this morning.",
+        answers: ["precleared"]
+    },
+    {
+        root: "COMFORT",
+        sentence: "The hotel's _____ beds led to negative reviews.",
+        answers: ["uncomfortable"]
+    },
+    {
+        root: "CONNECT",
+        sentence: "Technicians will _____ the power lines tomorrow.",
+        answers: ["reconnect"]
+    },
+    {
+        root: "COVER",
+        sentence: "Journalists _____ the scandal despite official denials.",
+        answers: ["uncovered"]
+    },
+    {
+        root: "DIRECT",
+        sentence: "The police officer _____ traffic to avoid the wreck.",
+        answers: ["redirected"]
+    },
+    {
+        root: "EMPLOYEE",
+        sentence: "The factory _____ several hundred workers last year.",
+        answers: ["employed"]
+    },
+    {
+        root: "ESSENTIAL",
+        sentence: "Many consider this step _____ for the sake of time.",
+        answers: ["nonessential"]
+    },
+    {
+        root: "FORMAL",
+        sentence: "The wedding reception will have a/n _____ dress code.",
+        answers: ["informal"]
+    },
+    {
+        root: "HARM",
+        sentence: "These chemicals are _____ to marine life.",
+        answers: ["harmful"]
+    }
+];
 
   
 ];
