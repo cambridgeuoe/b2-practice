@@ -49,9 +49,7 @@ const wordBank = [
         root: "BEAUTY",
         sentence: "The _____ landscape took our breath away.",
         answers: ["beautiful"]
-    }
-
-    // Prefix Examples (un-, dis-, mis-, im-, etc.)
+    },
     {
         root: "ABLE",
         sentence: "She was _____ to attend the meeting due to prior commitments.",
@@ -102,8 +100,6 @@ const wordBank = [
         sentence: "There was widespread _____ with the proposed changes.",
         answers: ["disagreement"]
     },
-
-    // Irregular Forms
     {
         root: "LONG",
         sentence: "The _____ of the tunnel surprised engineers.",
@@ -154,8 +150,6 @@ const wordBank = [
         sentence: "This problem requires careful _____.",
         answers: ["thought"]
     },
-
-    // Advanced Prefixes (re-, pre-, over-)
     {
         root: "APPROVE",
         sentence: "The committee voted to _____ the revised proposal.",
