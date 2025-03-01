@@ -240,7 +240,14 @@ function generateNewSet() {
 }
 
 function getRandomQuestion() {
-    let availableQuestions = wordBank.filter(q => !currentQuestions.includes(q));
+    // Filter by root word instead of object reference
+    let availableQuestions = wordBank.filter(q => 
+        !currentQuestions.some(cq => cq.root === q.root)
+    );
+    
+    // Fallback to full list if all questions used
+    if(availableQuestions.length === 0) availableQuestions = wordBank;
+    
     return availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
 }
 
@@ -274,7 +281,3 @@ function checkAllAnswers() {
 
 // Initial set
 generateNewSet();
-
-
-
-}
