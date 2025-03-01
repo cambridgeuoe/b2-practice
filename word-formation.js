@@ -248,12 +248,17 @@ function checkAllAnswers() {
     currentQuestions.forEach((question, index) => {
         const input = document.querySelector(`input[data-index="${index}"]`);
         const feedback = document.querySelector(`.feedback[data-index="${index}"]`);
-        const userAnswer = input.value.trim().toLowerCase();
+        const userAnswer = input.value.trim();
         
         input.classList.remove('correct', 'incorrect');
         feedback.innerHTML = '';
 
-        if(question.answers.map(a => a.toLowerCase()).includes(userAnswer)) {
+        // Case-insensitive check with original case preservation
+        const isCorrect = question.answers.some(correctAnswer => 
+            correctAnswer.localeCompare(userAnswer, undefined, { sensitivity: 'base' }) === 0
+        );
+
+        if(isCorrect) {
             input.classList.add('correct');
             feedback.innerHTML = '<span class="text-success">✓ Correct!</span>';
         } else {
@@ -269,5 +274,7 @@ function checkAllAnswers() {
 
 // Initial set
 generateNewSet();
+
+
 
 }
