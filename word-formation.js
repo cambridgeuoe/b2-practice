@@ -73,7 +73,7 @@ function generateNewSet() {
                 <div class="card-body">
                     <div class="d-flex align-items-center mb-2">
                         <span class="text-muted me-3">${i + 1}.</span>
-                        <p class="mb-0">${question.sentence.replace('_____', '<u></u>')}</p>
+                        <p class="mb-0">${question.sentence.replace('_____', '<u class="gap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>')}</p>
                     </div>
                     <div class="d-flex align-items-center">
                         <span class="root-word me-2">(${question.root})</span>
