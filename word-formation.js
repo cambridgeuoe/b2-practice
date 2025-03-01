@@ -1,6 +1,5 @@
 const wordBank = [
     
-    // Beta Questions
     {
         root: "CREATE",
         sentence: "The _____ of the new shopping mall took three years.",
@@ -51,8 +50,6 @@ const wordBank = [
         sentence: "The _____ landscape took our breath away.",
         answers: ["beautiful"]
     }
-    
-const wordBank = [
 
     // Prefix Examples (un-, dis-, mis-, im-, etc.)
     {
