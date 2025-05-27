@@ -3,75 +3,27 @@ const readingPart1Bank = [
     {
         text: `The concept of remote work has (1)______ significant attention in recent years. While some companies initially (2)______ the idea, many have now embraced it as a viable option. One major (3)______ is the potential for reduced overhead costs. However, experts (4)______ out that isolation can still be an issue. Proper communication tools are (5)______ to maintaining team cohesion. Ultimately, the (6)______ towards flexible work arrangements appears (7)______, though challenges (8)______.`,
         gaps: {
-            1: {
-                correct: "gained",
-                options: ["gained", "won", "earned", "achieved"]
-            },
-            2: {
-                correct: "resisted",
-                options: ["resisted", "opposed", "rejected", "denied"]
-            },
-            3: {
-                correct: "advantage",
-                options: ["advantage", "benefit", "profit", "gain"]
-            },
-            4: {
-                correct: "point",
-                options: ["point", "show", "indicate", "mark"]
-            },
-            5: {
-                correct: "crucial",
-                options: ["crucial", "important", "vital", "critical"]
-            },
-            6: {
-                correct: "trend",
-                options: ["trend", "tendency", "direction", "movement"]
-            },
-            7: {
-                correct: "irreversible",
-                options: ["irreversible", "permanent", "fixed", "stable"]
-            },
-            8: {
-                correct: "persist",
-                options: ["persist", "remain", "stay", "keep"]
-            }
+            1: { correct: "gained", options: ["gained", "won", "earned", "achieved"] },
+            2: { correct: "resisted", options: ["resisted", "opposed", "rejected", "denied"] },
+            3: { correct: "advantage", options: ["advantage", "benefit", "profit", "gain"] },
+            4: { correct: "point", options: ["point", "show", "indicate", "mark"] },
+            5: { correct: "crucial", options: ["crucial", "important", "vital", "critical"] },
+            6: { correct: "trend", options: ["trend", "tendency", "direction", "movement"] },
+            7: { correct: "irreversible", options: ["irreversible", "permanent", "fixed", "stable"] },
+            8: { correct: "persist", options: ["persist", "remain", "stay", "keep"] }
         }
     },
     {
         text: `Modern urban planning (1)______ heavily on sustainable development principles. City planners now (2)______ particular emphasis on green spaces and pedestrian zones. A (3)______ concern is reducing carbon emissions through improved public transport. Many cities have (4)______ up ambitious cycling infrastructure projects. However, (5)______ these efforts, traffic congestion continues to (6)______ a major challenge. The (7)______ between private and public transportation needs remains delicate. Most experts (8)______ that multimodal solutions are essential.`,
         gaps: {
-            1: {
-                correct: "relies",
-                options: ["relies", "depends", "counts", "banks"]
-            },
-            2: {
-                correct: "place",
-                options: ["place", "put", "set", "lay"]
-            },
-            3: {
-                correct: "key",
-                options: ["key", "main", "central", "prime"]
-            },
-            4: {
-                correct: "taken",
-                options: ["taken", "set", "put", "brought"]
-            },
-            5: {
-                correct: "despite",
-                options: ["despite", "although", "however", "while"]
-            },
-            6: {
-                correct: "pose",
-                options: ["pose", "present", "offer", "show"]
-            },
-            7: {
-                correct: "balance",
-                options: ["balance", "equilibrium", "middle", "center"]
-            },
-            8: {
-                correct: "argue",
-                options: ["argue", "discuss", "claim", "state"]
-            }
+            1: { correct: "relies", options: ["relies", "depends", "counts", "banks"] },
+            2: { correct: "place", options: ["place", "put", "set", "lay"] },
+            3: { correct: "key", options: ["key", "main", "central", "prime"] },
+            4: { correct: "taken", options: ["taken", "set", "put", "brought"] },
+            5: { correct: "despite", options: ["despite", "although", "however", "while"] },
+            6: { correct: "pose", options: ["pose", "present", "offer", "show"] },
+            7: { correct: "balance", options: ["balance", "equilibrium", "middle", "center"] },
+            8: { correct: "argue", options: ["argue", "discuss", "claim", "state"] }
         }
     },
     {
@@ -179,94 +131,90 @@ const readingPart1Bank = [
         }
     },
     {
-    text: `Mental health awareness has (1)______ significantly in workplace policies. Many companies now (2)______ employee well-being programs. A key (3)______ involves reducing the stigma around seeking help. HR departments (4)______ regular workshops on stress management. Despite progress, some employees still (5)______ discussing mental health openly. The (6)______ between productivity and well-being remains a (7)______ topic. Experts (8)______ that fostering open dialogue is crucial.`,
-    gaps: {
-        1: { correct: "grown", options: ["grown", "increased", "expanded", "developed"] },
-        2: { correct: "implement", options: ["implement", "install", "apply", "employ"] },
-        3: { correct: "challenge", options: ["challenge", "hurdle", "obstacle", "difficulty"] },
-        4: { correct: "conduct", options: ["conduct", "organize", "manage", "operate"] },
-        5: { correct: "avoid", options: ["avoid", "evade", "shun", "ignore"] },
-        6: { correct: "balance", options: ["balance", "equation", "relationship", "connection"] },
-        7: { correct: "contentious", options: ["contentious", "debated", "controversial", "disputed"] },
-        8: { correct: "emphasize", options: ["emphasize", "stress", "highlight", "underline"] }
+        text: `Mental health awareness has (1)______ significantly in workplace policies. Many companies now (2)______ employee well-being programs. A key (3)______ involves reducing the stigma around seeking help. HR departments (4)______ regular workshops on stress management. Despite progress, some employees still (5)______ discussing mental health openly. The (6)______ between productivity and well-being remains a (7)______ topic. Experts (8)______ that fostering open dialogue is crucial.`,
+        gaps: {
+            1: { correct: "grown", options: ["grown", "increased", "expanded", "developed"] },
+            2: { correct: "implement", options: ["implement", "install", "apply", "employ"] },
+            3: { correct: "challenge", options: ["challenge", "hurdle", "obstacle", "difficulty"] },
+            4: { correct: "conduct", options: ["conduct", "organize", "manage", "operate"] },
+            5: { correct: "avoid", options: ["avoid", "evade", "shun", "ignore"] },
+            6: { correct: "balance", options: ["balance", "equation", "relationship", "connection"] },
+            7: { correct: "contentious", options: ["contentious", "debated", "controversial", "disputed"] },
+            8: { correct: "emphasize", options: ["emphasize", "stress", "highlight", "underline"] }
+        }
+    },
+    {
+        text: `The gig economy has (1)______ traditional employment models. Freelancers now (2)______ a substantial portion of the workforce. A major (3)______ is the lack of job security. Many platforms (4)______ flexible hours as their main advantage. However, workers often (5)______ unpredictable income streams. The (6)______ towards project-based work appears (7)______, though labor laws (8)______ to catch up.`,
+        gaps: {
+            1: { correct: "transformed", options: ["transformed", "changed", "altered", "modified"] },
+            2: { correct: "constitute", options: ["constitute", "form", "compose", "represent"] },
+            3: { correct: "drawback", options: ["drawback", "disadvantage", "shortcoming", "weakness"] },
+            4: { correct: "promote", options: ["promote", "advertise", "market", "push"] },
+            5: { correct: "face", options: ["face", "confront", "encounter", "experience"] },
+            6: { correct: "shift", options: ["shift", "change", "transition", "movement"] },
+            7: { correct: "irreversible", options: ["irreversible", "permanent", "fixed", "lasting"] },
+            8: { correct: "struggle", options: ["struggle", "fight", "strive", "battle"] }
+        }
+    },
+    {
+        text: `International climate agreements (1)______ nations to reduce carbon emissions. Many countries (2)______ renewable energy targets. A persistent (3)______ involves balancing industrial growth with environmental (4)______. Some governments (5)______ tax incentives for green technologies. However, compliance (6)______ often fall short of promises. The (7)______ for global cooperation has never been more (8)______.`,
+        gaps: {
+            1: { correct: "oblige", options: ["oblige", "require", "compel", "bind"] },
+            2: { correct: "set", options: ["set", "establish", "fix", "determine"] },
+            3: { correct: "dilemma", options: ["dilemma", "paradox", "problem", "issue"] },
+            4: { correct: "sustainability", options: ["sustainability", "preservation", "conservation", "protection"] },
+            5: { correct: "offer", options: ["offer", "provide", "grant", "supply"] },
+            6: { correct: "metrics", options: ["metrics", "measures", "standards", "indicators"] },
+            7: { correct: "need", options: ["need", "demand", "requirement", "necessity"] },
+            8: { correct: "urgent", options: ["urgent", "pressing", "critical", "vital"] }
+        }
+    },
+    {
+        text: `5G technology deployment has (1)______ mobile communication capabilities. Telecom companies (2)______ faster speeds and lower latency. A significant (3)______ involves upgrading existing infrastructure. Urban areas (4)______ priority for initial rollout. However, rural regions (5)______ behind in access. The (6)______ between innovation and accessibility remains (7)______. Engineers (8)______ nationwide coverage within this decade.`,
+        gaps: {
+            1: { correct: "revolutionized", options: ["revolutionized", "transformed", "changed", "altered"] },
+            2: { correct: "promise", options: ["promise", "guarantee", "assure", "pledge"] },
+            3: { correct: "hurdle", options: ["hurdle", "obstacle", "challenge", "barrier"] },
+            4: { correct: "receive", options: ["receive", "get", "obtain", "acquire"] },
+            5: { correct: "lag", options: ["lag", "trail", "fall", "linger"] },
+            6: { correct: "gap", options: ["gap", "divide", "difference", "disparity"] },
+            7: { correct: "substantial", options: ["substantial", "significant", "considerable", "notable"] },
+            8: { correct: "predict", options: ["predict", "forecast", "anticipate", "project"] }
+        }
+    },
+    {
+        text: `Blended learning models (1)______ traditional and digital teaching methods. Educators (2)______ this approach enhances student engagement. A primary (3)______ involves ensuring technological access for all. Many institutions (4)______ interactive software in their curricula. However, some teachers (5)______ the impersonal nature of online tools. The (6)______ towards hybrid education appears (7)______, though adaptation (8)______ vary.`,
+        gaps: {
+            1: { correct: "combine", options: ["combine", "merge", "mix", "blend"] },
+            2: { correct: "claim", options: ["claim", "assert", "state", "declare"] },
+            3: { correct: "concern", options: ["concern", "issue", "problem", "worry"] },
+            4: { correct: "integrate", options: ["integrate", "incorporate", "include", "embed"] },
+            5: { correct: "criticize", options: ["criticize", "condemn", "denounce", "disparage"] },
+            6: { correct: "transition", options: ["transition", "shift", "change", "movement"] },
+            7: { correct: "inevitable", options: ["inevitable", "unavoidable", "certain", "inescapable"] },
+            8: { correct: "rates", options: ["rates", "speeds", "paces", "tempos"] }
+        }
     }
-},
-{
-    text: `The gig economy has (1)______ traditional employment models. Freelancers now (2)______ a substantial portion of the workforce. A major (3)______ is the lack of job security. Many platforms (4)______ flexible hours as their main advantage. However, workers often (5)______ unpredictable income streams. The (6)______ towards project-based work appears (7)______, though labor laws (8)______ to catch up.`,
-    gaps: {
-        1: { correct: "transformed", options: ["transformed", "changed", "altered", "modified"] },
-        2: { correct: "constitute", options: ["constitute", "form", "compose", "represent"] },
-        3: { correct: "drawback", options: ["drawback", "disadvantage", "shortcoming", "weakness"] },
-        4: { correct: "promote", options: ["promote", "advertise", "market", "push"] },
-        5: { correct: "face", options: ["face", "confront", "encounter", "experience"] },
-        6: { correct: "shift", options: ["shift", "change", "transition", "movement"] },
-        7: { correct: "irreversible", options: ["irreversible", "permanent", "fixed", "lasting"] },
-        8: { correct: "struggle", options: ["struggle", "fight", "strive", "battle"] }
-    }
-},
-{
-    text: `International climate agreements (1)______ nations to reduce carbon emissions. Many countries (2)______ renewable energy targets. A persistent (3)______ involves balancing industrial growth with environmental (4)______. Some governments (5)______ tax incentives for green technologies. However, compliance (6)______ often fall short of promises. The (7)______ for global cooperation has never been more (8)______.`,
-    gaps: {
-        1: { correct: "oblige", options: ["oblige", "require", "compel", "bind"] },
-        2: { correct: "set", options: ["set", "establish", "fix", "determine"] },
-        3: { correct: "dilemma", options: ["dilemma", "paradox", "problem", "issue"] },
-        4: { correct: "sustainability", options: ["sustainability", "preservation", "conservation", "protection"] },
-        5: { correct: "offer", options: ["offer", "provide", "grant", "supply"] },
-        6: { correct: "metrics", options: ["metrics", "measures", "standards", "indicators"] },
-        7: { correct: "need", options: ["need", "demand", "requirement", "necessity"] },
-        8: { correct: "urgent", options: ["urgent", "pressing", "critical", "vital"] }
-    }
-},
-{
-    text: `5G technology deployment has (1)______ mobile communication capabilities. Telecom companies (2)______ faster speeds and lower latency. A significant (3)______ involves upgrading existing infrastructure. Urban areas (4)______ priority for initial rollout. However, rural regions (5)______ behind in access. The (6)______ between innovation and accessibility remains (7)______. Engineers (8)______ nationwide coverage within this decade.`,
-    gaps: {
-        1: { correct: "revolutionized", options: ["revolutionized", "transformed", "changed", "altered"] },
-        2: { correct: "promise", options: ["promise", "guarantee", "assure", "pledge"] },
-        3: { correct: "hurdle", options: ["hurdle", "obstacle", "challenge", "barrier"] },
-        4: { correct: "receive", options: ["receive", "get", "obtain", "acquire"] },
-        5: { correct: "lag", options: ["lag", "trail", "fall", "linger"] },
-        6: { correct: "gap", options: ["gap", "divide", "difference", "disparity"] },
-        7: { correct: "substantial", options: ["substantial", "significant", "considerable", "notable"] },
-        8: { correct: "predict", options: ["predict", "forecast", "anticipate", "project"] }
-    }
-},
-{
-    text: `Blended learning models (1)______ traditional and digital teaching methods. Educators (2)______ this approach enhances student engagement. A primary (3)______ involves ensuring technological access for all. Many institutions (4)______ interactive software in their curricula. However, some teachers (5)______ the impersonal nature of online tools. The (6)______ towards hybrid education appears (7)______, though adaptation (8)______ vary.`,
-    gaps: {
-        1: { correct: "combine", options: ["combine", "merge", "mix", "blend"] },
-        2: { correct: "claim", options: ["claim", "assert", "state", "declare"] },
-        3: { correct: "concern", options: ["concern", "issue", "problem", "worry"] },
-        4: { correct: "integrate", options: ["integrate", "incorporate", "include", "embed"] },
-        5: { correct: "criticize", options: ["criticize", "condemn", "denounce", "disparage"] },
-        6: { correct: "transition", options: ["transition", "shift", "change", "movement"] },
-        7: { correct: "inevitable", options: ["inevitable", "unavoidable", "certain", "inescapable"] },
-        8: { correct: "rates", options: ["rates", "speeds", "paces", "tempos"] }
-    }
-}
-];
+]; // Closing array bracket
 
-// Expansion Method:
+// Expansion Method
 function generateTextTemplate(topic, verbs, nouns, adjectives) {
     return {
         text: `[${topic} introduction] (1)______ [${verbs[0]}]. [Development] (2)______ [${verbs[1]}]. 
         [Challenge] (3)______ [${nouns[0]}]. [Solution] (4)______ [${verbs[2]}]. 
         [Contrast] (5)______ [${adjectives[0]}]. [Conclusion] (6-8)______ [complex vocab].`,
         gaps: { /* Auto-generate gaps */ }
-    }
-}    
-];
+    };
+}
 
-
+// Rest of the code remains unchanged
 function generateNewTest() {
-    currentTest = readingPart1Bank[Math.floor(Math.random() * readingPart1Bank.length)];
+    let currentTest = readingPart1Bank[Math.floor(Math.random() * readingPart1Bank.length)];
     const container = document.getElementById('text-container');
     let textHtml = currentTest.text;
     
-    // Replace gaps with randomized dropdowns
     for(let i = 1; i <= 8; i++) {
         const gap = currentTest.gaps[i];
-        
-        // Create shuffled options with blank first
         const options = [gap.correct, ...gap.options.filter(o => o !== gap.correct)];
         const shuffledOptions = shuffleArray(options);
         
@@ -294,7 +242,7 @@ function checkAnswers() {
     const gaps = document.querySelectorAll('.cloze-gap');
     gaps.forEach(select => {
         const gapNumber = select.dataset.gap;
-        const correctAnswer = currentTest.gaps[gapNumber].correct;
+        const correctAnswer = readingPart1Bank.find(test => test.text === document.getElementById('text-container').textContent).gaps[gapNumber].correct;
         const userAnswer = select.value;
         
         select.classList.remove('correct', 'incorrect');
