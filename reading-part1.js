@@ -206,10 +206,9 @@ function generateTextTemplate(topic, verbs, nouns, adjectives) {
         gaps: { /* Auto-generate gaps */ }
     };
 }
-
-// Rest of the code remains unchanged
+let currentTest;
 function generateNewTest() {
-    let currentTest = readingPart1Bank[Math.floor(Math.random() * readingPart1Bank.length)];
+    currentTest = readingPart1Bank[Math.floor(Math.random() * readingPart1Bank.length)];
     const container = document.getElementById('text-container');
     let textHtml = currentTest.text;
     
