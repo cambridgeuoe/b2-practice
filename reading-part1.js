@@ -252,14 +252,10 @@ function generateTextTemplate(topic, verbs, nouns, adjectives) {
         [Challenge] (3)______ [${nouns[0]}]. [Solution] (4)______ [${verbs[2]}]. 
         [Contrast] (5)______ [${adjectives[0]}]. [Conclusion] (6-8)______ [complex vocab].`,
         gaps: { /* Auto-generate gaps */ }
-    };
-}
-
-    
+    }
+}    
 ];
 
-
-let currentTest;
 
 function generateNewTest() {
     currentTest = readingPart1Bank[Math.floor(Math.random() * readingPart1Bank.length)];
