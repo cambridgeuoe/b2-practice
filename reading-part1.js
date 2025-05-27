@@ -83,20 +83,32 @@ function generateNewTest() {
     const container = document.getElementById('text-container');
     let textHtml = currentTest.text;
     
-    // Replace gaps with dropdowns
+    // Replace gaps with randomized dropdowns
     for(let i = 1; i <= 8; i++) {
         const gap = currentTest.gaps[i];
-        const options = gap.options.map((opt, idx) => 
-            `<option value="${opt}" ${opt === gap.correct ? 'class="correct-option"' : ''}>${String.fromCharCode(65 + idx)}. ${opt}</option>`
-        ).join('');
+        
+        // Create shuffled options with blank first
+        const options = [gap.correct, ...gap.options.filter(o => o !== gap.correct)];
+        const shuffledOptions = shuffleArray(options);
+        
+        const selectOptions = [
+            '<option value="" disabled selected>Select...</option>',
+            ...shuffledOptions.map((opt, idx) => 
+                `<option value="${opt}">${String.fromCharCode(65 + idx)}. ${opt}</option>`
+            )
+        ].join('');
         
         textHtml = textHtml.replace(
             `(${i})______`,
-            `<select class="form-select cloze-gap" data-gap="${i}">${options}</select>`
+            `<select class="form-select cloze-gap" data-gap="${i}">${selectOptions}</select>`
         );
     }
     
     container.innerHTML = `<div class="lead">${textHtml}</div>`;
+}
+
+function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
 }
 
 function checkAnswers() {
@@ -107,6 +119,12 @@ function checkAnswers() {
         const userAnswer = select.value;
         
         select.classList.remove('correct', 'incorrect');
+        
+        if(userAnswer === "") {
+            select.classList.add('incorrect');
+            return;
+        }
+
         if(userAnswer === correctAnswer) {
             select.classList.add('correct');
         } else {
